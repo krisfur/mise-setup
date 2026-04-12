@@ -2,7 +2,7 @@ min_version = "2025.1.0"
 
 [tools]
 bun = "latest"
-clang = "latest"
+"conda:clang" = "latest"
 cmake = "latest"
 go = "latest"
 github-cli = "latest"
