@@ -140,6 +140,7 @@ This config manages:
 - `ninja`
 - `node`
 - `odin`
+- `opencode`
 - `python`
 - `ripgrep`
 - `rust`
