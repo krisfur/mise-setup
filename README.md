@@ -25,12 +25,12 @@ The default Windows path in this repo is still `wezterm` plus WSL, but native Wi
 
 Install these with your distro package manager:
 
-- `git`
 - `curl` or `wget`
-- `unzip`
-- `tar`
+- `git`
 - `gzip`
 - `make`
+- `tar`
+- `unzip`
 
 Clipboard integration is assumed to be handled by the host OS.
 
@@ -131,22 +131,22 @@ mise install
 
 This config manages:
 
-- `neovim`
-- `node`
-- `ripgrep`
-- `tree-sitter`
-- `rust`
 - `bun`
 - `cmake`
 - `clang`
-- `go`
 - `github-cli`
+- `go`
+- `neovim`
 - `ninja`
-- `zig`
-- `uv`
-- `typst`
+- `node`
 - `odin`
+- `ripgrep`
+- `rust`
 - `swift`
+- `tree-sitter`
+- `typst`
+- `uv`
+- `zig`
 
 ## Neovim Setup
 
