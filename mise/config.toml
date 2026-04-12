@@ -10,6 +10,7 @@ neovim = "latest"
 ninja = "latest"
 node = "lts"
 odin = "latest"
+python = "latest"
 ripgrep = "latest"
 rust = "latest"
 swift = { version = "latest", os = ["linux"] }
