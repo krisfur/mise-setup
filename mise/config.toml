@@ -12,7 +12,7 @@ node = "lts"
 odin = "latest"
 ripgrep = "latest"
 rust = "latest"
-swift = { version = "latest", os = ["linux", "macos"] }
+swift = { version = "latest", os = ["linux"] }
 tree-sitter = "latest"
 typst = "latest"
 uv = "latest"
