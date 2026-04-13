@@ -150,6 +150,17 @@ This config manages:
 - `uv`
 - `zig`
 
+On Windows need to add the shims to path via `PowerShell`:
+
+```powershell
+$shim = "$env:LOCALAPPDATA\mise\shims"
+ [Environment]::SetEnvironmentVariable(
+   "Path",
+   $env:Path + ";" + $shim,
+   "User"
+ )
+```
+
 ## Neovim Setup
 
 Copy the `Neovim` config:
@@ -157,6 +168,12 @@ Copy the `Neovim` config:
 ```bash
 mkdir -p ~/.config
 cp -r nvim ~/.config/
+```
+
+On Windows the location is instead:
+
+```bash
+cp -r nvim/ ~/AppData/Local/
 ```
 
 Launch it to install:
