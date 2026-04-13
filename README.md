@@ -41,6 +41,7 @@ Install these first:
 - `git` for Windows
 - `Git Bash`
 - `wezterm`
+- `Visual Studio` community edition: just the `C++ development` components
 
 Using `Git Bash` keeps the shell setup close to the Linux and WSL instructions. You can run it directly, or launch it inside `wezterm`.
 
