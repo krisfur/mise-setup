@@ -135,6 +135,7 @@ This config manages:
 - `bun`
 - `cmake`
 - `clang`
+- `fex`
 - `github-cli`
 - `go`
 - `neovim`

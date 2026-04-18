@@ -1,3 +1,4 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/krisfur/neovim-config
+	branch = main
