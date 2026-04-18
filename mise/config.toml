@@ -3,6 +3,7 @@ min_version = "2025.1.0"
 [tools]
 bun = "latest"
 "cargo:fex" = { version = "latest", depends = ["rust"] }
+codex = "latest"
 "conda:clang" = "latest"
 cmake = "latest"
 go = "latest"
@@ -15,7 +16,6 @@ opencode = "latest"
 python = "latest"
 ripgrep = "latest"
 rust = "latest"
-swift = { version = "latest", os = ["linux"] }
 tree-sitter = "latest"
 typst = "latest"
 uv = "latest"
@@ -26,5 +26,3 @@ experimental = true
 not_found_auto_install = true
 status = { missing_tools = "if_other_versions_installed", show_env = false, show_tools = false }
 
-[settings.swift]
-platform = "ubi9"
